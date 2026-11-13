@@ -1,0 +1,23 @@
+{
+  "name": "medicare-hospital-management-system",
+  "version": "1.0.0",
+  "description": "MediCare - Full Stack Hospital Management System (B.Tech CSE Capstone Project)",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "hospital-management",
+    "mern-stack",
+    "react",
+    "express",
+    "mongodb",
+    "capstone"
+  ],
+  "author": "MediCare Team",
+  "license": "ISC"
+}
